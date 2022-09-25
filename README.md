@@ -16,9 +16,9 @@ January 2021
     The way in which I have encoded my nodes is explained in the
     mappingFunction of each class.
 
-Retele.java
+    Retele.java
     For this task, I have used all the recommended reductions that were specified
-in the document one by one(a, b and c).
+    in the document one by one(a, b and c).
 
     First set of reductions makes sure that if there is a clique of size K in a given graph G,
     then there must be exactly one vertex v in that clique for each i between 1 and K.
@@ -37,7 +37,7 @@ in the document one by one(a, b and c).
             for each i,j i !=j and for each v from V => -Xiv V -Xjv
             for each i and for each v,w v!=w => -Xiv V -Xiw
 
-Reclame.java
+    Reclame.java
     For this task, I have used also all the recommended reductions that were specified
     in the document one by one.
 
@@ -50,7 +50,7 @@ Reclame.java
     Formally:
             for each v,w v!=w and for each i => Xiv V Xiw
 
-Registre.java
+    Registre.java
     For this task, I have used only two reductions since one registry can hold multiple variables.
     (those two reductions seem on paper to be sufficient)
 
